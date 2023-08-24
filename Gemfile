@@ -4,8 +4,8 @@ source "https://rubygems.org"
 # gem "rails"
 
 gem 'sinatra'
-gem 'activerecord', :require => 'active_record'
-gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
+gem 'activerecord', '>= 6.1.7.5', :require => 'active_record'
+gem 'sinatra-activerecord', '>= 2.0.14', :require => 'sinatra/activerecord'
 gem 'rake'
 gem 'require_all'
 gem 'sqlite3'
